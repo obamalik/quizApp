@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">2018 World Cup Quiz</string>
+    <string name="q1"> 1. Which of these belonged to Group A in the 2018 World Cup?</string>
+    <string name="q1_optionA">Spain</string>
+    <string name="q1_optionB">Egypt</string>
+    <string name="q1_optionC">Peru</string>
+    <string name="q1_optionD">Nigeria</string>
+
+    <string name="q2"> 2. Which of the listed nations did not feature at the 2018 World Cup?</string>
+    <string name="q2_optionA">Tunisia</string>
+    <string name="q2_optionB">Morocco</string>
+    <string name="q2_optionC">Ghana</string>
+    <string name="q2_optionD">Senegal</string>
+
+    <string name="q3"> 3. Which of these countries hosted the 2018 World Cup?</string>
+    <string name="q3_optionA">Iceland</string>
+    <string name="q3_optionB">Poland</string>
+    <string name="q3_optionC">Japan</string>
+    <string name="q3_optionD">Russia</string>
+
+    <string name="q4"> 4. The famed Nigeria vs Iceland match was played in what stadium?</string>
+    <string name="q4_optionA">Stalingrad</string>
+    <string name="q4_optionB">Volgograd</string>
+    <string name="q4_optionC">Kaliningrad</string>
+    <string name="q4_optionD">St Pertersburg</string>
+
+    <string name="q5"> 5. Which team recorded the 1st 3 points at the 2018 World Cup?</string>
+    <string name="q5_optionA">Saudi Arabia</string>
+    <string name="q5_optionB">Belgium</string>
+    <string name="q5_optionC">Croatia</string>
+    <string name="q5_optionD">Russia</string>
+
+    <string name="q6"> 6. Which team\'s jersey was celebrated as the most fanciful at the 2018 World Cup?</string>
+    <string name="q6_optionA">Tunisia</string>
+    <string name="q6_optionB">Nigeria</string>
+    <string name="q6_optionC">Germany</string>
+    <string name="q6_optionD">Brazil</string>
+
+    <string name="q7"> 7. Which team suffered a 3 "-" 0 loss against Croatia at the 2018 World Cup?</string>
+    <string name="q7_optionA">England</string>
+    <string name="q7_optionB">Portugal</string>
+    <string name="q7_optionC">Argentina</string>
+    <string name="q7_optionD">Costa Rica</string>
+
+    <string name="q8"> 8. At the 2018 World Cup, Group F comprised the following except?</string>
+    <string name="q8_optionA">Germany</string>
+    <string name="q8_optionB">Sweden</string>
+    <string name="q8_optionC">USA</string>
+    <string name="q8_optionD">South Korea</string>
+
+    <string name="q9"> 9. Which of these are in Group H at the 2018 World Cup?</string>
+    <string name="q9_optionA">Colombia</string>
+    <string name="q9_optionB">Japan</string>
+    <string name="q9_optionC">Australia</string>
+    <string name="q9_optionD">Senegal</string>
+
+    <string name="q10"> 10. Which group was Saudi Arabia at the 2018 World Cup?</string>
+    <string name="q10_optionA">A</string>
+    <string name="q10_optionB">B</string>
+    <string name="q10_optionC">C</string>
+    <string name="q10_optionD">D</string>
+
+    <string name="submit_answers">Submit</string>
+</resources>

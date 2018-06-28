@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f9ff9a02"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/q1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q1"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:soundEffectsEnabled="true"
+            android:hapticFeedbackEnabled="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/q1_option_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/q1_optionA"/>
+
+            <RadioButton
+                android:id="@+id/q1_option_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/q1_optionB"/>
+
+            <RadioButton
+                android:id="@+id/q1_option_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/q1_optionC"/>
+
+            <RadioButton
+                android:id="@+id/q1_option_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/q1_optionD"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/q2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q2"
+            android:textSize="20sp"
+            android:paddingTop="24dp"/>
+
+        <RadioGroup
+            android:soundEffectsEnabled="true"
+            android:hapticFeedbackEnabled="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/q2_option_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/q2_optionA"/>
+
+            <RadioButton
+                android:id="@+id/q2_option_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/q2_optionB"/>
+
+            <RadioButton
+                android:id="@+id/q2_option_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/q2_optionC"/>
+
+            <RadioButton
+                android:id="@+id/q2_option_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/q2_optionD"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/q3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q3"
+            android:textSize="20sp"
+            android:paddingTop="24dp"/>
+
+        <RadioGroup
+            android:soundEffectsEnabled="true"
+            android:hapticFeedbackEnabled="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/q3_option_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/q3_optionA"/>
+
+            <RadioButton
+                android:id="@+id/q3_option_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/q3_optionB"/>
+
+            <RadioButton
+                android:id="@+id/q3_option_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/q3_optionC"/>
+
+            <RadioButton
+                android:id="@+id/q3_option_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/q3_optionD"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/q4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q4"
+            android:textSize="20sp"
+            android:paddingTop="24dp"/>
+
+        <RadioGroup
+            android:soundEffectsEnabled="true"
+            android:hapticFeedbackEnabled="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/q4_option_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/q4_optionA"/>
+
+            <RadioButton
+                android:id="@+id/q4_option_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/q4_optionB"/>
+
+            <RadioButton
+                android:id="@+id/q4_option_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/q4_optionC"/>
+
+            <RadioButton
+                android:id="@+id/q4_option_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/q4_optionD"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/q5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q5"
+            android:textSize="20sp"
+            android:paddingTop="24dp"/>
+
+        <RadioGroup
+            android:soundEffectsEnabled="true"
+            android:hapticFeedbackEnabled="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/q5_option_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/q5_optionA"/>
+
+            <RadioButton
+                android:id="@+id/q5_option_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/q5_optionB"/>
+
+            <RadioButton
+                android:id="@+id/q5_option_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/q5_optionC"/>
+
+            <RadioButton
+                android:id="@+id/q5_option_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/q5_optionD"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/q6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q6"
+            android:textSize="20sp"
+            android:paddingTop="24dp"/>
+
+        <RadioGroup
+            android:soundEffectsEnabled="true"
+            android:hapticFeedbackEnabled="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/q6_option_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/q6_optionA"/>
+
+            <RadioButton
+                android:id="@+id/q6_option_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/q6_optionB"/>
+
+            <RadioButton
+                android:id="@+id/q6_option_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/q6_optionC"/>
+
+            <RadioButton
+                android:id="@+id/q6_option_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/q6_optionD"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/q7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q7"
+            android:textSize="20sp"
+            android:paddingTop="24dp"/>
+
+        <RadioGroup
+            android:soundEffectsEnabled="true"
+            android:hapticFeedbackEnabled="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/q7_option_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/q7_optionA"/>
+
+            <RadioButton
+                android:id="@+id/q7_option_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/q7_optionB"/>
+
+            <RadioButton
+                android:id="@+id/q7_option_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/q7_optionC"/>
+
+            <RadioButton
+                android:id="@+id/q7_option_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/q7_optionD"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/q8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q8"
+            android:textSize="20sp"
+            android:paddingTop="24dp"/>
+
+        <RadioGroup
+            android:soundEffectsEnabled="true"
+            android:hapticFeedbackEnabled="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/q8_option_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/q8_optionA"/>
+
+            <RadioButton
+                android:id="@+id/q8_option_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/q8_optionB"/>
+
+            <RadioButton
+                android:id="@+id/q8_option_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/q8_optionC"/>
+
+            <RadioButton
+                android:id="@+id/q8_option_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/q8_optionD"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/q9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q9"
+            android:textSize="20sp"
+            android:paddingTop="24dp"/>
+
+        <CheckBox
+            android:id="@+id/q9_option_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q9_optionA"/>
+
+        <CheckBox
+            android:id="@+id/q9_option_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q9_optionB"/>
+
+        <CheckBox
+            android:id="@+id/q9_option_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q9_optionC"/>
+
+        <CheckBox
+            android:id="@+id/q9_option_d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q9_optionD"/>
+
+
+        <TextView
+            android:id="@+id/q10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q10"
+            android:textSize="20sp"
+            android:paddingTop="24dp"/>
+
+        <RadioGroup
+            android:soundEffectsEnabled="true"
+            android:hapticFeedbackEnabled="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/q10_option_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/q10_optionA"/>
+
+            <RadioButton
+                android:id="@+id/q10_option_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/q10_optionB"/>
+
+            <RadioButton
+                android:id="@+id/q10_option_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/q10_optionC"/>
+
+            <RadioButton
+                android:id="@+id/q10_option_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/q10_optionD"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/submit_answers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#88c45d"
+            android:hapticFeedbackEnabled="true"
+            android:soundEffectsEnabled="true"
+            android:fontFamily="sans-serif"
+            android:onClick="submitAnswers"
+            android:textAllCaps="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="12dp"
+            android:text="@string/submit_answers"/>
+
+    </LinearLayout>
+</ScrollView>
